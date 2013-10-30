@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Test: Forms date state</title>
+    <link rel='author' title='your mame' href='mailto:youremail@address.com'>
+    <link rel='help' href='http://www.w3.org/html/wg/drafts/html/CR/forms.html#date-state-(type=date)'>
+  </head>
+  
+  <body>
+    <div id="myDiv" style="display: none">
+      <input id="invalid_value" type="date" value="invalid-date">
+    </div>
+	<div id="result" style="font-size: 60px;"></div>
+    <script>
+	console.log(document.querySelector("#invalid_value").value == "");
+	document.querySelector("#result").innerHTML = document.getElementById("invalid_value").value == "";
+    </script>
+  </body>
+</html>
