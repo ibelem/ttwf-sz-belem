@@ -5,12 +5,12 @@
     <link rel='author' title='your mame' href='mailto:youremail@address.com'>
     <link rel='help' href='http://www.w3.org/html/wg/drafts/html/CR/forms.html#date-state-(type=date)'>
     <script src='/resources/testharness.js'></script>
-    <script src='/resources/testharnessreport.js'></script>
+    <script src='testharnessreport.js'></script>
   </head>
   
   <body>
     <div id="myDiv" style="display: none">
-      <input id="invalid_value" type="date" value="2013-12-07">
+      <input id="invalid_value" type="date" value="invalid-date">
     </div>
     <div id="log"></div>    
     <script>

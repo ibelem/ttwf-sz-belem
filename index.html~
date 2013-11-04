@@ -471,7 +471,15 @@ assert_equals(getActualData("myElement"), 100, "Expected value for myElement is 
             <li><a href="http://alistapart.com/article/readspec">How to Read W3C Specs</a> by J. David Eisenberg </li>
             <li><a href="http://berjon.com/">How to Read a Spec</a> by Robin Berjon</li>
             <li><a href="http://adobe.github.io/web-platform/presentations/test-the-web-forward-overview/index.html">Test the Web Forward Overview</a></li>
-	    <li><a href="http://testthewebforward.org/docs/testharness-tutorial.html">Test Harness Tutorial</a> adapted from Robin Berjon's <a href="http://darobin.github.io/test-harness-tutorial/docs/using-testharness.html">using-testharness.js</a></li>
+            <li><a href="http://darobin.github.io/test-harness-tutorial/docs/using-testharness.html">using-testharness.js</a></li>
+	    <li><a href="http://testthewebforward.org/docs/testharness-tutorial.html">Test Harness Tutorial</a></li>
+
+> "[Test Harness
+> Tutorial][],
+> adapted from Robin Berjon's
+> [using-testharness.js][http://darobin.github.io/test-harness-tutorial/docs/
+> using-testharness.html] "
+
           </ul>
         </section>
       </div>
