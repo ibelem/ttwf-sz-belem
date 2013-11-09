@@ -154,7 +154,7 @@
               User agents <em>must not</em> allow the user to set the <code>value</code> to a non-empty string that is not a valid date string.
             </p>
             <pre>
-                      <code class="html" style="font-size:28px;">
+                      <code class="css" style="font-size:28px;">
 &lt;input id="invalid" type="date" value="invalid_value"&gt;
 &lt;script&gt;
   console.log(document.querySelector("#invalid").value == "");
@@ -163,14 +163,24 @@
                       </pre>
           </section>
         </section>
+          <section>
         <section>
           <h2>Language issue?</h2>
           <ul>
             <li><a href="http://www.w3.org/TR/html5/forms.html#the-form-element">English: HTML5 form element</a></li>
             <li><a href="http://www.w3.org/html/ig/zh/wiki/HTML5/forms#the-form-element">Chinese: HTML5 form 元素</a></li>
-            <li><a href="http://www.w3.org/html/ig/zh/wiki/%E8%BE%AD%E5%BD%99%E8%A1%A8/%E8%AF%8D%E6%B1%87%E8%A1%A8_-_%E7%B9%81%E9%AB%94%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E5%AF%B9%E7%85%A7%E7%89%88">W3C 文档规范术语表</a> by <a href="http://www.w3.org/html/ig/zh/">HTML5 中文小组</a></li>
+            <li><a href="http://www.w3.org/html/ig/zh/wiki/%E8%BE%AD%E5%BD%99%E8%A1%A8/%E8%AF%8D%E6%B1%87%E8%A1%A8_-_%E7%B9%81%E9%AB%94%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E5%AF%B9%E7%85%A7%E7%89%88">W3C 文档规范术语表</a> by <a href="http://www.w3.org/html/ig/zh/">HTML5 中文小组</a>
           </ul>
         </section>
+        <section>
+          <h2>HTML5 中文兴趣小组</h2>
+            <br/>
+          <p style="text-align: left;">宗旨：以中文（简体或繁体）协调及讨论 HTML5 规范以及 HTML5 相关的规范，收集这些规范的评论与问题，以及在这些规范中文环境下的特殊测试案例。</p><br/>
+          <p style="text-align: left;">加入：寄一封标题为「subscribe」的信至 <a href="mailto:public-html-ig-zh-request@w3.org?subject=subscribe">public-html-ig-zh-request@w3.org</a></p>
+            
+          <a href="http://www.w3.org/html/ig/zh/">http://www.w3.org/html/ig/zh/</a>
+        </section>
+          </section>
         <section>
           <em>Be patient and persistent.</em>
         </section>
@@ -258,7 +268,7 @@ test(test_function, name, properties)
               <li>Usage example:</li>
             </ul>
             <pre>
-								  <code class="html javascript" style="font-size:28px; text-align: center;">
+								  <code class="html javascript" style="font-size:24px; text-align: center;">
 test(function() { assert_true(true) }, name, properties)
 								  </code>
 							  </pre>
@@ -277,7 +287,7 @@ test(function() { assert_true(true) }, name, properties)
               <li>Usage example:</li>
             </ul>
             <pre>
-								  <code class="html" style="font-size:28px; text-align: center;">
+								  <code class="html" style="font-size:24px; text-align: center;">
 test(function() { assert_true(true) }, "test_name", properties)
 								  </code>
 							  </pre>
@@ -296,7 +306,7 @@ test(function() { assert_true(true) }, "test_name", properties)
               <li>Usage example:</li>
             </ul>
             <pre>
-								  <code class="html javascript" style="font-size:28px; ">
+								  <code class="html javascript" style="font-size:24px; ">
 test(function() { assert_true(true) }, 
   "test_name", 
   { timeout:1000, assert: 'This should always be true.' }
@@ -344,8 +354,8 @@ assert_equals(actual, expected, description)
               <li>Usage example:</li>
             </ul>
             <pre>
-							  <code class="html" style="font-size:20px">
-assert_equals(getActualData("myElement"), 100, "Expected value for myElement is 100")
+							  <code class="html" style="font-size:22px">
+assert_equals(getData("myElement"), 100, "Expected value for myElement is 100")
 							  </code>
 						  </pre>
           </section>
@@ -379,7 +389,7 @@ assert_equals(getActualData("myElement"), 100, "Expected value for myElement is 
           <section>
             <h2>METADATA</h2>
             <pre>
-                        <code class="html javascript" style="font-size:28px">
+                        <code class="css" style="font-size:28px">
 ...
 &lt;script src="/resources/testharness.js"&gt;&lt;/script&gt;
 &lt;script src="/resources/testharnessreport.js"&gt;&lt;/script&gt;
@@ -399,7 +409,7 @@ assert_equals(getActualData("myElement"), 100, "Expected value for myElement is 
   &lt;input id="invalid_value" type="date" value="invalid-date"&gt;
 &lt;/div&gt;
 &lt;div id="log"&gt;&lt;/div&gt;
-
+</code><code class="html" style="font-size:24px">
 &lt;script&gt;
     test(function() {
         assert_equals(document.getElementById("invalid_value").value, "");
@@ -430,7 +440,7 @@ assert_equals(getActualData("myElement"), 100, "Expected value for myElement is 
   &lt;input id="invalid_value" type="date" value="invalid-date"&gt;
 &lt;/div&gt;
 &lt;div id="log"&gt;&lt;/div&gt;
-&lt;script&gt;
+</code><code class="html" style="font-size:24px">&lt;script&gt;
     test(function() {
         assert_equals(document.getElementById("invalid_value").value, "");
     },
